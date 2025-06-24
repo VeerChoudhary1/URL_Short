@@ -1,4 +1,4 @@
-# URL_Short and URL_Long
+# URL_Short
 import random
 import string
 
@@ -66,15 +66,4 @@ def updateLongURL(shortURL, newLongURL):
         return res 
     else:
         return "ShortURL doesn't exist"
-#Update long URL
-def updateLongURL(shortURL, newLongURL):
-    """
-    It will update longURL 
-    """
-    if shortURL in DB:
-        shortURL = shortURL.split("/")[-1]
-        DB[shortURL] = newLongURL
-        res = "cm.in/" + shortURL
-        return res 
-    else:
-        return "ShortURL doesn't exist"
+
