@@ -67,7 +67,7 @@ def updateLongURL(shortURL, newLongURL):
     else:
         return "ShortURL doesn't exist"
 #Update long URL
-ef updateLongURL(shortURL, newLongURL):
+def updateLongURL(shortURL, newLongURL):
     """
     It will update longURL 
     """
